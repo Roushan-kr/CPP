@@ -32,8 +32,8 @@
 
 //  int s=34; Here "s" is a integer variable of value 34.
 
-//  Based in scope, variable can be of teo type:-
-    // Local variable ( decleared under { data_type var_name = value} and asses inside it only )
+//  Based in scope, variable can be of two type:-
+    // Local variable ( decleared under { data_type var_name = value} and asses inside it(func) only )
     // Global variable ( declear outside any function and able asses anywhere )
     // we also use name of both variable same, then local precidence is high
 
@@ -71,6 +71,7 @@ int sum ( int a , int b){
     int c;
     c=a+b;
     return c;
+    c=0;
 }
 int main(){
     cout<< "This ia example of Date-Type\n";
@@ -83,8 +84,9 @@ int main(){
     int global =sum(a,b);
         // cout<<"\nSum of a and b is "<< sum(a ,b);
     cout<<"\nSum of a and b is "<< global; // here local impact is quit high for local global but outside this function things become normal
-    char c='u';
-    cout<<"\nValue of c is "<<c<<"\n";
+    // cout<<"😁";
+    cout<<"\nSum of a and b  for global is "<< ::global<<endl; // here global value got seen isko scope resolution khtai hai
+    // cout<<"\nValue of c is "<<c<<"\n"; // we can't use it b/c it not of local scope
     bool true_value=true;
     cout<< "Bollean value for true is "<< true_value;
     
@@ -101,9 +103,13 @@ return 0;
     // after the first initial latter, it can be latter or number
     // case-sensitive var-name
     // no soace or special char or resurve keywords are not allowed
+    // but it is not recommended to use unwanted long var name 
 
 
 // c++ Basic I/O 
+    //  << is call as insertion operator 
+    // >> is call as Extraction operator (i/p lai lo)
+
 
 
 
