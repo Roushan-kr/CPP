@@ -1,10 +1,11 @@
 // it just work as a mid level programing concept 
 // a mid level program need programmer knowlage to use memory and dynamic locaton
-// while high level have it own knowlage to do mean it is pre and better define 
+// while high level have it own knowlage to do, mean it is pre and better define 
 // variable are container to store value
 // It also provide a level of abstrction
 
 // we have diffrent variable 
+
 // variable and comment in c++
 
 // # include<iostream>
@@ -71,7 +72,7 @@ int sum ( int a , int b){
     int c;
     c=a+b;
     return c;
-    c=0;
+    c=0; // here i did it b/c after return it value become zero not the privious one
 }
 int main(){
     cout<< "This ia example of Date-Type\n";
@@ -94,7 +95,7 @@ int main(){
 return 0;
 }
 // Note :- 
-//  when a write or call a variable then it first find local variable then global
+//  when we write or call a variable then it first find local variable then global
 // boll retun 1 for true and 0 for false
 
 //  Rule for Declearing varible 
@@ -102,7 +103,7 @@ return 0;
     // It can start with underscore
     // after the first initial latter, it can be latter or number
     // case-sensitive var-name
-    // no soace or special char or resurve keywords are not allowed
+    // no space or special char or resurve keywords are allowed
     // but it is not recommended to use unwanted long var name 
 
 

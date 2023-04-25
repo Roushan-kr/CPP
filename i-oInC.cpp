@@ -26,7 +26,7 @@ int main(){
             // usr header can included with   #include "head.h"  --> this will produce an error if this is not present in folder
 // eg
 // #include "head.h"
-//#include <head.h> // both work
+//#include <head.h> // both work but do this only on sys define header file 
 
 // operators i c++
     // Arthematic Operator
@@ -45,10 +45,10 @@ int main(){
     cout<<endl;
  
 
-// Assignment operator  --> use to assign value to itss variable 
+// Assignment operator  --> use to assign value to it's variable 
     //   eg in a=2, char a='c'
 
-//  comprasion operator
+//  comprasion operator  // this all return a bool value
 //a =4, b=3
     cout<<" the value of a !=b "<< (a!=b)<<endl;
     cout<<" the value of a ==b "<< (a==b)<<endl;
