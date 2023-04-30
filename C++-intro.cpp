@@ -69,10 +69,10 @@
 using namespace std;
 int global=4;
 int sum ( int a , int b){
-    int c;
+    int c; //c=0;
     c=a+b;
     return c;
-    c=0; // here i did it b/c after return it value become zero not the privious one
+    c=0; // here i did it b/c after return it value become zero not the privious one // alos islo upar hona chyeai tubhi kam keraga at line 72
 }
 int main(){
     cout<< "This ia example of Date-Type\n";

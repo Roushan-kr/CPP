@@ -1,11 +1,13 @@
 # include<iostream>
 using namespace std;
+//  A type of inline function
+//  use when minumum repetative stuff seed litle code inside it.
  inline product(int a, int b){
     return a*b;
 }
 product( int a, int b , int d){
 static int c=0; // static int first time c ko 0 kai sath initilize keraga fir wh apnai vlaue ko jo ki bad mai change hoga ussi hold keraga
-c =a*b; // now it hild value of a*b and retain it until it may change
+c =a*b; // now it hold value of a*b and retain it until it may change
 return c;
 }
 //  function with default argument 
