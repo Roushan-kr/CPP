@@ -16,7 +16,7 @@ public:
         a = x;
         // b = 0; // it also take take value from it default 
     }
-    complex(){
+    complex(){ // use when no value get parsed , it doen't gat its value by own if this not declearedd in public
         a=0;
         b=0;
     }
@@ -43,7 +43,7 @@ void simple::printData(){
 int main()
 {
 
-    complex c1(1, 2), c2(1), c3;
+    complex c1(1, 2), c2(1),c3;
     c1.printVal(); // constt. with multi preimeterized argument
     c2.printVal(); // constructor overloading  with single argument
     c3.printVal(); // default constt. with no arument 
