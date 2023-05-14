@@ -68,4 +68,4 @@ int main()
 //  1. pure virtual function are use to make abstract class 
 //  2. abstract base class are not use to create object but it use to derive(inherate) other class only  
 //  3. A abstrect base classs contain atleat one virtual function
-//  4. function()=0 fore it to redefine while inheritance.
+//  4. function()=0 for it to redefine while inheritance.
