@@ -1,0 +1,32 @@
+/*
+In CP we have 
+Time limitation, time complixity, runtime time constrained ,and many more condtion
+here somtimes we use STL(Standred tamplate library) :- it contain generic classes and functions
+STL have well tested components (classes , function) which help us to save time 
+// HP staff Alexgender and Mengli maked this at initial stage
+                                        /-> prosedural data menuplation methods  e.g searching(linear , binary) , shorting
+//  components of STL:- 1. Component 2. Algorithms 3. Itratores --->obj points to a elements in a container and handeld just like pointers  (also connect algo with cointainer to perform data manuplation) amd make algo based movement to do itration
+                            \_> use to store data and use template classes 
+
+// container In STL
+ 1. object whic store data
+    types:-
+        1.1 Sequence container -> Stores data in linear fashion and sequential e.g vactors , list , Dequeue(double ended queue) , searching is not so good
+        1.2 Associative container -> Direct Acess , store data in tree like structure e.g. Set/multiSet , map/multiMap
+        1.3 Derived Cointainer -> use in real world modling use to drived by any above two, provide some extra method e.g. stack(LIFO),queue(FIFO),priority queue but it also contain cabiets 
+
+//  Algoritm In STL
+1. Procedure to process amd store data 
+
+// Itrators In STL
+1. obj which points to an element of a cointainer
+
+// when to use which
+                                    Rendom acess            insertion/delation
+Sequential cointainer                   fast               (mid mai slow) slow (but at the end fast e.g. auto resize array)
+List                                     slow                   fast (contigenous momory addresh)
+Associative containers                   slow                   all other operation are fast
+Derived Cointeiner                  Depends -> DSA
+
+
+*/
